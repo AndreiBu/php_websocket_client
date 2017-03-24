@@ -1,0 +1,22 @@
+{
+    "name": "andreibu/php_websocket_client",
+    "type": "package",
+    "description": "PHP WebSocket Client For Laravel.",
+    "keywords": ["WebSocket","PHP", "laravel", "laravel5"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AndreiBu",
+            "email": "andrey.buldakoff@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "AndreiBu\\php_websocket_client\\": "src/"
+        }
+    }
+
+}
