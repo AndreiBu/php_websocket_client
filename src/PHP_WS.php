@@ -24,7 +24,7 @@ class PHP_WS
 						"Sec-WebSocket-Key: TyPfhFqWTjuw8eDAxdY8xg==\r\n" .
 						"Sec-WebSocket-Version: 13\r\n";		
 	}
-	public function send($method)
+	public function send($method='')
 	{
 		$this->head .= "Content-Length: ".strlen($method)."\r\n\r\n";
 		$this->connect();
