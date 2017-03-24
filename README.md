@@ -47,6 +47,8 @@ Add ServiceProvider to the providers array in `config/app.php`.
 
 ```php
 
+send
+
 ```
 
 
