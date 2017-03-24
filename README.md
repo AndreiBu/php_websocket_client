@@ -36,9 +36,9 @@ Add ServiceProvider to the providers array in `config/app.php`.
 
 ```php
     host
-    port=
-    path=
-
+    port
+    path
+    
 ```
 
 ### Usage
@@ -47,7 +47,9 @@ Add ServiceProvider to the providers array in `config/app.php`.
 
 ```php
 
-send
+use PHP_WS;
+PHP_WS::send(json_encode(array('type'=>'send_message_to','id'=>'1000001','msg'=>'laravel msg ')));
+
 
 ```
 
